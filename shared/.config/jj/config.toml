@@ -122,10 +122,10 @@ fi
 [remotes.origin]
 auto-track-bookmarks = "glob:*"
 
-[fsmonitor]
+# [fsmonitor]
 # Use Watchman for faster working copy snapshots in large repos
 # Requires: brew install watchman
-backend = "watchman"
+# backend = "watchman"
 
 [git]
 write-change-id-header = true

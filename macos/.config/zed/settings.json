@@ -26,6 +26,26 @@
    "projects": [
     {
      "paths": [
+      "/Users/lau"
+     ]
+    },
+    {
+     "paths": [
+      "/Users/lau/code/laulauland"
+     ]
+    },
+    {
+     "paths": [
+      "/Users/lau/code/laulauland/cedar"
+     ]
+    },
+    {
+     "paths": [
+      "/Users/lau/code/work"
+     ]
+    },
+    {
+     "paths": [
       "/Users/lau/code/work/nocturne"
      ]
     }
@@ -70,7 +90,8 @@
 		"copy_on_select": true,
 		"env": {
 			"EDITOR": "zed --wait",
-			"GIT_EDITOR": "zed --wait"
+			"GIT_EDITOR": "zed --wait",
+      "COLORTERM": "truecolor"
 		}
 	},
 	"use_auto_surround": true,
