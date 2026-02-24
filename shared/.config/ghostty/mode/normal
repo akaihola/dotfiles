@@ -1,5 +1,10 @@
 # Normal mode - Ghostty default behavior
-# Minimal keybinds - uses Ghostty's built-in defaults for most things
+
+# Enter tmux key table mode
+keybind = alt+t=activate_key_table:tmux
+
+# Enter vim scroll/search mode
+keybind = alt+v=activate_key_table:vim
 
 # Sessionizer - run in current shell, opens project in new window
 keybind = cmd+o=text:~/.config/tmux/scripts/sessionizer.sh\n
