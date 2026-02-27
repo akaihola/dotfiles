@@ -1,22 +1,28 @@
 {
   "defaultProvider": "openai-codex",
-  "defaultModel": "gpt-5.3-codex",
+  "defaultModel": "gpt-5.4",
   "defaultThinkingLevel": "xhigh",
-  "lastChangelogVersion": "0.55.1",
+  "lastChangelogVersion": "0.58.3",
   "theme": "light",
   "enabledModels": [
     "openai-codex/gpt-5.3-codex",
     "google-gemini-cli/gemini-3-flash-preview",
     "cerebras/zai-glm-4.7",
     "opencode/minimax-m2.5",
-    "opencode/kimi-k2.5"
+    "opencode/kimi-k2.5",
+    "openai-codex/gpt-5.4"
   ],
   "followUpMode": "one-at-a-time",
   "skills": [
     "~/.claude/skills"
   ],
   "packages": [
-    "../../code/laulauland/mill/packages/pi-mill"
+    {
+      "source": "../../code/laulauland/mill/packages/pi-mill",
+      "skills": [
+        "-.pi-skills/mill/SKILL.md"
+      ]
+    }
   ],
   "prompts": [
     "-prompts/web-interface-guidelines.md",
