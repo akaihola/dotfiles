@@ -205,7 +205,8 @@ function wrapWithShellCompletion(
 		getSuggestions(
 			lines: string[],
 			cursorLine: number,
-			cursorCol: number
+			cursorCol: number,
+			...rest: unknown[]
 		): { items: AutocompleteItem[]; prefix: string } | null {
 			if (isBashMode(lines)) {
 				const text = getTextUpToCursor(lines, cursorLine, cursorCol);
@@ -214,7 +215,7 @@ function wrapWithShellCompletion(
 					return result;
 				}
 			}
-			return baseProvider.getSuggestions(lines, cursorLine, cursorCol);
+			return baseProvider.getSuggestions(lines, cursorLine, cursorCol, ...rest);
 		},
 
 		applyCompletion(
@@ -261,7 +262,7 @@ function wrapWithShellCompletion(
 			if ("getForceFileSuggestions" in baseProvider) {
 				return (baseProvider as any).getForceFileSuggestions(lines, cursorLine, cursorCol);
 			}
-			return this.getSuggestions(lines, cursorLine, cursorCol);
+			return this.getSuggestions(lines, cursorLine, cursorCol);  // no extra args needed for force path
 		},
 
 		shouldTriggerFileCompletion(
