@@ -18,5 +18,8 @@
 
 | Branch | Description | Status |
 | ------ | ----------- | ------ |
+| [fix/shell-completions-options-forward][b1] | fix/shell-completions-options-forward | [draft PR][b1-draft] |
 
+[b1]: git@github.com:akaihola/dotfiles/tree/fix/shell-completions-options-forward
+[b1-draft]: git@github.com:akaihola/dotfiles/blob/fix/shell-completions-options-forward/PULL-REQUEST-DRAFT.md
 
