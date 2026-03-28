@@ -11,7 +11,7 @@
 | ----------- | -------------------------------------------------------------------------- |
 | Upstream    | [laulauland/dotfiles](https://github.com/laulauland/dotfiles)              |
 | This fork   | [git@github.com:akaihola/dotfiles/dotfiles](git@github.com:akaihola/dotfiles)                      |
-| Synced to   | `main` @ [unknown](https://github.com/laulauland/dotfiles/commit/unknown) |
+| Synced to   | `main` @ [7b95955](https://github.com/laulauland/dotfiles/commit/7b95955) |
 | Last synced | 2026-03-28                                                            |
 
 ## Personal branches
