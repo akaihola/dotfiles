@@ -1,4 +1,4 @@
-# dotfiles (personal fork – @git@github.com:akaihola/dotfiles)
+# dotfiles (personal fork – @akaihola)
 
 > ⚠️ This is a personal fork of
 > [laulauland/dotfiles](https://github.com/laulauland/dotfiles).
@@ -10,7 +10,7 @@
 |             |                                                                            |
 | ----------- | -------------------------------------------------------------------------- |
 | Upstream    | [laulauland/dotfiles](https://github.com/laulauland/dotfiles)              |
-| This fork   | [git@github.com:akaihola/dotfiles/dotfiles](git@github.com:akaihola/dotfiles)                      |
+| This fork   | [akaihola/dotfiles](https://github.com/akaihola/dotfiles)                      |
 | Synced to   | `main` @ [7b95955](https://github.com/laulauland/dotfiles/commit/7b95955) |
 | Last synced | 2026-03-29                                                            |
 
@@ -20,6 +20,6 @@
 | ------ | ----------- | ------ |
 | [fix/shell-completions-options-forward][b1] | [fix/shell-completions-options-forward][b1-draft] | draft PR |
 
-[b1]: git@github.com:akaihola/dotfiles/tree/fix/shell-completions-options-forward
-[b1-draft]: git@github.com:akaihola/dotfiles/blob/fix/shell-completions-options-forward/PULL-REQUEST-DRAFT.md
+[b1]: https://github.com/akaihola/dotfiles/tree/fix/shell-completions-options-forward
+[b1-draft]: https://github.com/akaihola/dotfiles/blob/fix/shell-completions-options-forward/PULL-REQUEST-DRAFT.md
 
