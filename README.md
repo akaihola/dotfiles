@@ -18,7 +18,7 @@
 
 | Branch | Description | Status |
 | ------ | ----------- | ------ |
-| [fix/shell-completions-options-forward][b1] | [fix/shell-completions-options-forward][b1-draft] | draft PR |
+| [fix/shell-completions-options-forward][b1] | [fix(shell-completions): forward extra args in getSuggestions for pi-tui 0.63.x][b1-draft] | draft PR |
 
 [b1]: https://github.com/akaihola/dotfiles/tree/fix/shell-completions-options-forward
 [b1-draft]: https://github.com/akaihola/dotfiles/blob/fix/shell-completions-options-forward/PULL-REQUEST-DRAFT.md
